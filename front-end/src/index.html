@@ -46,7 +46,12 @@
                         <div class="banner-imgs">
                             <div class="slider">
                                 <a href="#1" title="Slider 1">
-                                    <img src="/app/img/mobile/image_rotate.png" class="img" title="slider 1">
+                                    <picture>
+                                        <source srcset="/app/img/tablet/image_rotate.png" media="(max-width: 768px)">
+                                        <source srcset="/app/img/desktop/image_rotate.png" media="(min-width: 992px)">
+                                        <source srcset="/app/img/mobile/image_rotate.png">
+                                        <img src="/app/img/mobile/image_rotate.png" class="img" alt="slider 1">
+                                    </picture>
                                 </a>
                                 <div class="slider-text">
                                     <div class="slider-text-top bg-lightblue">
@@ -74,7 +79,12 @@
                     <div class="list-highlights">
                         <div class="highlight">
                             <a href="#Pindureta" title="Pindureta">
-                                <img src="/app/img/mobile/highlight-01.png" class="img" alt="Pindureta">
+                                <picture>
+                                    <source srcset="/app/img/tablet/highlight-01.png" media="(max-width: 768px)">
+                                    <source srcset="/app/img/desktop/highlight-01.png" media="(min-width: 992px)">
+                                    <source srcset="/app/img/mobile/highlight-01.png">
+                                    <img src="/app/img/mobile/highlight-01.png" class="img" alt="Pindureta">
+                                </picture>
                             </a>
                             <div class="highlight-text">
                                 Pindureta
@@ -82,7 +92,13 @@
                         </div>
                         <div class="highlight">
                             <a href="#Bolis" title="Bolis">
-                                <img src="/app/img/mobile/highlight-02.png" class="img" alt="Bolis">
+                                <picture>
+                                    <source srcset="/app/img/tablet/highlight-02.png" media="(max-width: 768px)">
+                                    <source srcset="/app/img/desktop/highlight-02.png" media="(min-width: 992px)">
+                                    <source srcset="/app/img/mobile/highlight-02.png">
+                                    <img src="/app/img/mobile/highlight-02.png" class="img" alt="Bolis">
+                                </picture>
+                                <!--<img src="/app/img/mobile/highlight-02.png" class="img" alt="Bolis">-->
                             </a>
                             <div class="highlight-text">
                                 Bolis
@@ -90,7 +106,13 @@
                         </div>
                         <div class="highlight">
                             <a href="#Sapien" title="Sapien">
-                                <img src="/app/img/mobile/highlight-03.png" class="img" alt="Sapien">
+                                <picture>
+                                    <source srcset="/app/img/tablet/highlight-03.png" media="(max-width: 768px)">
+                                    <source srcset="/app/img/desktop/highlight-03.png" media="(min-width: 992px)">
+                                    <source srcset="/app/img/mobile/highlight-03.png">
+                                    <img src="/app/img/mobile/highlight-03.png" class="img" alt="Sapien">
+                                </picture>
+                                <!--<img src="/app/img/mobile/highlight-03.png" class="img" alt="Sapien">-->
                             </a>
                             <div class="highlight-text">
                                 Sapien
@@ -99,62 +121,273 @@
                     </div>
                 </section>
                 <section class="section-divoltis">
-                    <h2>divoltis porris</h2>
-                    <div class="list-divoltis">
-                        <div class="divoltis">
-                            <a href="#consetis" title="Consetis">
-                                <img src="/app/img/mobile/divoltis-porris-01.png" class="img" alt="Consetis">
-                            </a>
-                            <div class="divoltis-text">
-                                <h3 class="divoltis-title"><a href="#Consetis" title="Consetis">Consetis</a></h3>
-                                <p>
-                                    <a href="#Consetis" title="Manduma pindureta quium dia nois paga. Sapien in monti palavris">
-                                        Manduma pindureta quium dia nois paga. Sapien in monti palavris
-                                    </a>
-                                </p>
+                    <div class="row">
+                        <div class="column _55">
+                            <h2>divoltis porris</h2>
+                            <div class="list-divoltis flex">
+                                <article class="flex-el">
+                                    <div class="divoltis">
+                                        <a href="#consetis" title="Consetis">
+                                            <picture>
+                                                <source srcset="/app/img/tablet/divoltis_porris-01.png" media="(max-width: 768px)">
+                                                <source srcset="/app/img/desktop/divoltis_porris-01.png" media="(min-width: 992px)">
+                                                <source srcset="/app/img/mobile/divoltis-porris-01.png">
+                                                <img src="/app/img/mobile/divoltis-porris-01.png" class="img" alt="Consetis">
+                                            </picture>
+                                            <!--<img src="/app/img/mobile/divoltis-porris-01.png" class="img" alt="Consetis">-->
+                                        </a>
+                                        <div class="divoltis-text">
+                                            <h3 class="divoltis-title"><a href="#Consetis" title="Consetis">Consetis</a></h3>
+                                            <p>
+                                                <a href="#Consetis" title="Manduma pindureta quium dia nois paga. Sapien in monti palavris">
+                                                    Manduma pindureta quium dia nois paga. Sapien in monti palavris
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="flex-el">
+                                    <div class="divoltis">
+                                        <a href="#Aenean" title="Aenean">
+                                            <picture>
+                                                <source srcset="/app/img/tablet/divoltis_porris-02.png" media="(max-width: 768px)">
+                                                <source srcset="/app/img/desktop/divoltis_porris-02.png" media="(min-width: 992px)">
+                                                <source srcset="/app/img/mobile/divoltis-porris-02.png">
+                                                <img src="/app/img/mobile/divoltis-porris-02.png" class="img" alt="Aenean">
+                                            </picture>
+                                            <!--<img src="/app/img/mobile/divoltis-porris-02.png" class="img" alt="Aenean">-->
+                                        </a>
+                                        <div class="divoltis-text">
+                                            <h3 class="divoltis-title"><a href="#Aenean" title="Aenean">Aenean</a></h3>
+                                            <p>
+                                                <a href="#Aenean" title="Pellentesque laoreet mé vel lectus scelerisque">
+                                                    Pellentesque laoreet mé vel lectus scelerisque
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="flex-el">
+                                    <div class="divoltis">
+                                        <a href="#Matis" title="Matis">
+                                            <picture>
+                                                <source srcset="/app/img/tablet/divoltis_porris-03.png" media="(max-width: 768px)">
+                                                <source srcset="/app/img/desktop/divoltis_porris-03.png" media="(min-width: 992px)">
+                                                <source srcset="/app/img/mobile/divoltis-porris-03.png">
+                                                <img src="/app/img/mobile/divoltis-porris-03.png" class="img" alt="Matis">
+                                            </picture>
+                                            <!--<img src="/app/img/mobile/divoltis-porris-03.png" class="img" alt="Matis">-->
+                                        </a>
+                                        <div class="divoltis-text">
+                                            <h3 class="divoltis-title"><a href="#Matis" title="Matis">Matis</a></h3>
+                                            <p>
+                                                <a href="#Matis" title="Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.">Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="flex-el ">
+                                    <div class="divoltis">
+                                        <a href="#Divinis" title="Divinis">
+                                            <picture>
+                                                <source srcset="/app/img/mobile/divoltis-porris-04.png" media="(max-width: 768px)">
+                                                <source srcset="/app/img/desktop/divoltis_porris-04.png" media="(min-width: 992px)">
+                                                <source srcset="/app/img/mobile/divoltis-porris-04.png">
+                                                <img src="/app/img/mobile/divoltis-porris-04.png" class="img" alt="Divinis">
+                                            </picture>
+                                            <!--<img src="/app/img/mobile/divoltis-porris-04.png" class="img" alt="Divinis">-->
+                                        </a>
+                                        <div class="divoltis-text">
+                                            <h3 class="divoltis-title"><a href="#Divinis" title="Divinis">Divinis</a></h3>
+                                            <p>
+                                                <a href="#Divinis" title="Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis">Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
                             </div>
                         </div>
-                        <div class="divoltis">
-                            <a href="#Aenean" title="Aenean">
-                                <img src="/app/img/mobile/divoltis-porris-02.png" class="img" alt="Aenean">
-                            </a>
-                            <div class="divoltis-text">
-                                <h3 class="divoltis-title"><a href="#Aenean" title="Aenean">Aenean</a></h3>
-                                <p>
-                                    <a href="#Aenean" title="Pellentesque laoreet mé vel lectus scelerisque">
-                                        Pellentesque laoreet mé vel lectus scelerisque
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="divoltis">
-                            <a href="#Matis" title="Matis">
-                                <img src="/app/img/mobile/divoltis-porris-03.png" class="img" alt="Matis">
-                            </a>
-                            <div class="divoltis-text">
-                                <h3 class="divoltis-title"><a href="#Matis" title="Matis">Matis</a></h3>
-                                <p>
-                                    <a href="#Matis" title="Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.">Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</a>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="divoltis">
-                            <a href="#Divinis" title="Divinis">
-                                <img src="/app/img/mobile/divoltis-porris-03.png" class="img" alt="Divinis">
-                            </a>
-                            <div class="divoltis-text">
-                                <h3 class="divoltis-title"><a href="#Divinis" title="Divinis">Divinis</a></h3>
-                                <p>
-                                    <a href="#Divinis" title="Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis">Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis</a>
-                                </p>
-                            </div>
+                        <div class="column _25 show-desktop">
+                            <aside class="ad-desktop">
+                                <div class="ad-wrap">
+                                    <small class="text-grey mt-40">Publicidade</small>
+                                    <figure>
+                                        <a href="#ad-mobile" title="Satisfação é Esser">
+                                            <img src="/app/img/desktop/ads-300x600.png" class="img" alt="Satisfação é Esser">
+                                        </a>
+                                    </figure>
+                                </div>
+                            </aside>
                         </div>
                     </div>
                 </section>
+                <div class="row">
+                    <div class="column">
+                        <div class="row">
+                            <div class="column">
 
-                <section class="section-list">
+                        <section class="section-list">
+                            <h2>paisis, filhis, espiritis santis</h2>
+                            <ul class="list list-unstyled">
+                                <li>
+                                    <a href="#list1" title="Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis">
+                                        Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#list1" title="Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis">
+                                        Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#list1" title="Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis">
+                                        Mussum ipsum cacilds, vidis litro abertis
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#list1" title="Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis">
+                                        Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#list1" title="Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis">
+                                        Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis
+                                    </a>
+                                </li>
+                            </ul>
+                        </section>
+                            </div>
+                            <div class="column">
+                                
+                        <section class="section-pirulita">
+                            <h2 class="title-info">se pirulitá</h2>
+                            <div class="list-info">
+                                <article class="info">
+                                    <a href="#nam-liber" title="Nam liber" class="info-img">
+                                        <picture>
+                                            <source srcset="/app/img/tablet/se_pirulita-01.png" media="(max-width: 40em) and (orientation: landscape)">
+                                            <source srcset="/app/img/tablet/se_pirulita-01.png" media="(max-width: 40em) and (orientation: portrait)">
+                                            <source srcset="/app/img/desktop/se_pirulita-01.png" media="(min-width: 40em) and (orientation: landscape)">
+                                            <source srcset="/app/img/mobile/se_pirulita-01.png" media="(min-width: 40em) and (orientation: portrait)">
+                                            <img srcset="/app/img/mobile/se_pirulita-01.png" alt="Nam liber">
 
-                </section>
+                                            <!--<source srcset="/app/img/tablet/se_pirulita-01.png" media="(min-width: 768px)">
+                                            <source srcset="/app/img/desktop/se_pirulita-01.png" media="(min-width: 992px)">
+                                            <source srcset="/app/img/mobile/se_pirulita-01.png">
+                                            <img src="/app/img/mobile/se_pirulita-01.png" class="img" alt="Nam liber">-->
+                                        </picture>
+                                        <!--<img src="/app/img/mobile/se_pirulita-01.png" class="img" alt="Nam liber">-->
+                                    </a>
+                                    <div class="info-text">
+                                        <h3 class="info-title"><a href="#nam-lieber" title="Nam lieber">Nam lieber</a></h3>
+                                        <p>
+                                            <a href="#" title="Casamentiss faiz malandris se pirulitá">Casamentiss faiz malandris se pirulitá</a>
+                                        </p>
+                                    </div>
+                                </article>
+                                <article class="info">
+                                    <a href="#Gostis" title="Gostis" class="info-img">
+                                        <picture>
+                                            <source srcset="/app/img/tablet/se_pirulita-02.png" media="(max-width: 768px)">
+                                            <source srcset="/app/img/desktop/se_pirulita-02.png" media="(min-width: 992px)">
+                                            <source srcset="/app/img/mobile/se_pirulita-02.png">
+                                            <img src="/app/img/mobile/se_pirulita-02.png" class="img" alt="Gostis">
+                                        </picture>
+                                        <!--<img src="/app/img/mobile/se_pirulita-02.png" class="img" alt="Gostis">-->
+                                    </a>
+                                    <div class="info-text">
+                                        <h3 class="info-title"><a href="#Gostis" title="Gostis">Gostis</a></h3>
+                                        <p>
+                                            <a href="#" title="Aenean ut ante turpis. Pellentesque laoreet mé">Aenean ut ante turpis. Pellentesque laoreet mé</a>
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                        </section>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--<div class="column _50">
+                    </div>-->
+                    <div class="column">
+                        <div class="row">
+                            <div class="column">
+
+                        <section class="section-suco">
+                            <h2 class="title-info">suco de cevadiss</h2>
+                            <div class="list-info">
+                                <article class="info">
+                                    <a href="#Interagi" title="Interagi" class="info-img">
+                                        <picture>
+                                            <source srcset="/app/img/tablet/suco_de_cevadiss-01.png" media="(max-width: 768px)">
+                                            <source srcset="/app/img/desktop/suco_de_cevadiss-01.png" media="(min-width: 992px)">
+                                            <source srcset="/app/img/mobile/suco_de_cevadiss-01.png">
+                                            <img src="/app/img/mobile/suco_de_cevadiss-01.png" class="img" alt="Interagi">
+                                        </picture>
+                                        <!--<img src="/app/img/mobile/suco_de_cevadiss-01.png" class="img" alt="Interagi">-->
+                                    </a>
+                                    <div class="info-text">
+                                        <h3 class="info-title"><a href="#Interagi" title="Interagi">Interagi</a></h3>
+                                        <p>
+                                            <a href="#" title="É um leite divinis, qui tem lupuliz, matis, aguis e fermentis">É um leite divinis, qui tem lupuliz, matis, aguis e fermentis</a>
+                                        </p>
+                                    </div>
+                                </article>
+                                <article class="info">
+                                    <a href="#Gostis" title="Gostis" class="info-img">
+                                        <picture>
+                                            <source srcset="/app/img/tablet/suco_de_cevadiss-02.png" media="(max-width: 768px)">
+                                            <source srcset="/app/img/desktop/suco_de_cevadiss-02.png" media="(min-width: 992px)">
+                                            <source srcset="/app/img/mobile/suco_de_cevadiss-02.png">
+                                            <img src="/app/img/mobile/suco_de_cevadiss-02.png" class="img" alt="Gostis">
+                                        </picture>
+                                        <!--<img src="/app/img/mobile/suco_de_cevadiss-02.png" class="img" alt="Gostis">-->
+                                    </a>
+                                    <div class="info-text">
+                                        <h3 class="info-title"><a href="#Gostis" title="Gostis">Gostis</a></h3>
+                                        <p>
+                                            <a href="#" title="Aenean ut ante turpis. Pellentesque laoreet mé">Aenean ut ante turpis. Pellentesque laoreet mé</a>
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                        </section>
+                            </div>
+                            <div class="column hide-desktop">
+
+                        <section class="section-ads">
+                            <div class="ad-wrap">
+                                <small class="text-grey">Publicidade</small>
+                                <figure>
+                                    <a href="#ad-mobile" title="Inscreva-se - Empreendedor Social | Folha Empreendedor Social de futuro">
+                                        <img src="/app/img/mobile/ads-300x250.png" class="img" alt="Inscreva-se - Empreendedor Social | Folha Empreendedor Social de futuro">
+                                    </a>
+                                </figure>
+                            </div>
+                        </section>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="column _50 hide-desktop">
+                    </div>-->
+                </div>
+
+                <div class="row">
+                    <div class="column m-12 t-6 d-4 desk-3 _50 _25">
+                        el 1
+                    </div>
+                    <div class="column m-12 t-6 d-4 desk-3 _50">
+                        el 2
+                    </div>
+                    <div class="column m-12 t-6 d-4 desk-3 _50">
+                        el 3
+                    </div>
+                    <div class="column m-12 t-6 _50 hide-desktop">
+                        el 4
+                    </div>
+                </div>
+
             </div>
         </main>
         <footer id="main-footer" class="bg-darkblue">
