@@ -28,20 +28,6 @@ function JaSorteado($array, $toVerify) {
 }
 
 function MontarTabela($numeros) {
-    $tbl = "";
-
-    for ($i = 1; $i < 7; $i++) {
-        $tbl = $tbl . "<tr>";
-        for ($j = 1; $j < 11; $j++) {
-            $tbl = $tbl . "<td class='text-center'>" . ZeroAhEsquerda($j) . "</td>";
-        }
-        $tbl = $tbl . "</tr>";
-    }
-
-    return $tbl;
-}
-
-function MontarTabela2($numeros) {
     $tbl = "<tr>";
 
     $i = 0;
@@ -115,7 +101,7 @@ function MontarTabela2($numeros) {
                     </div>
                     <div id="<?php echo $auxID; ?>" class="panel-collapse collapse <?php echo ($i == 0 ? "in" : "") ?>" role="tabpanel" aria-labelledby="<?php echo $auxID; ?>">
                         <table class="table table-bordered table-hover">
-                            <tbody><?php print_r(MontarTabela2($sorteios[$i])); ?></tbody>
+                            <tbody><?php print_r(MontarTabela($sorteios[$i])); ?></tbody>
                         </table>
                     </div>
                 </div>
@@ -123,7 +109,6 @@ function MontarTabela2($numeros) {
             }
             ?>
             </div>
-            
         </div>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
