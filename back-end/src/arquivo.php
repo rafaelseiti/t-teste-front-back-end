@@ -2,9 +2,7 @@
 class Arquivo {
     private $conteudo;
 
-    function Arquivo() {
-        $this->carregar();
-    }
+    function Arquivo() { }
 
     function carregar() {
         $arquivo = fopen('arquivo.txt', 'r');
@@ -30,7 +28,9 @@ class Arquivo {
     <body>
     <?php
         $arq = new Arquivo();
-        echo "<div class='well well-sm'>" . $arq->visualizar() . "</div>";
+        $arq->carregar();
+
+        echo $arq->visualizar();
     ?>
     </body>
 </html>
